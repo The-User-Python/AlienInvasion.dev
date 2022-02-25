@@ -40,7 +40,7 @@ var startGame = function() {
     Game.setBoard(2,new Starfield(100,1.0,50));
   }  
   Game.setBoard(3,new TitleScreen("Alien Game dev", 
-                                  "Press any key to start playing",
+                                  "Welcome to the dev game",
                                   playGame));
 };
 
